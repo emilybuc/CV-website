@@ -1,8 +1,14 @@
-import './App.css';
+import './App.styles.js';
+import TypeWriter from './components/TypeWriter/TypeWriter'
+import HeroBanner from './components/HeroBanner/HeroBanner.js';
+import {Container} from './App.styles'
 
 function App() {
   return (
-    <h1>hello_world</h1>
+    <Container>
+      <HeroBanner/>
+      
+    </Container>
   );
 }
 
