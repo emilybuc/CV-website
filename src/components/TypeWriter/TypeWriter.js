@@ -1,7 +1,9 @@
 import Typewriter from 'typewriter-effect'
+import { Container } from './TypeWriter.styles'
 
 const TypeWriter = () => {
     return (
+        <Container>
         <Typewriter
             onInit={(typewriter) => {
                 typewriter
@@ -13,6 +15,7 @@ const TypeWriter = () => {
                     .start()
             }}
         />
+        </Container >
     )
 }
 
